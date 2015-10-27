@@ -41,7 +41,6 @@
 	          <manifest>
 	            <addClasspath>true</addClasspath>
 	            <classpathPrefix>lib/</classpathPrefix>
-	            <mainClass>replicated_stack_set.stack_set.MainReplStackSet</mainClass>
 	          </manifest>
 	        </archive>
 	      </configuration>
@@ -51,7 +50,6 @@
 	  	  <artifactId>exec-maven-plugin</artifactId>
 	  	  <version>1.2.1</version>
 	  	  <configuration>
-	     	<mainClass>replicated_stack_set.stack_set.MainReplStackSet</mainClass>
 	  	  </configuration>
 	    </plugin>  
 	    <plugin>

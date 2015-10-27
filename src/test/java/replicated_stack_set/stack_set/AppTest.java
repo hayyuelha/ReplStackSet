@@ -8,7 +8,7 @@ public class AppTest extends TestCase {
 		try {
 			ReplSet<Integer> set1 = new ReplSet<>();
 			ReplSet<Integer> set2 = new ReplSet<>();
-			set1.add(5);
+			assertEquals("add element", true, set1.add(5));
 			Thread.sleep(1000);
 			assertEquals("check equal sets", set1.print(), set2.print());
 			assertEquals("add existing element", false, set2.add(5));
@@ -21,6 +21,7 @@ public class AppTest extends TestCase {
 			Thread.sleep(1000);
 			assertEquals("remove element", true, set2.remove(5));
 			Thread.sleep(1000);
+			assertEquals("check element has been removed", "[]", set2.print());
 			assertEquals("check equal sets", set1.print(), set2.print());
 			set1.close();
 			set2.close();

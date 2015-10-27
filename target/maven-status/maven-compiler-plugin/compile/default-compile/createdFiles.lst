@@ -1,4 +1,3 @@
-replicated_stack_set/stack_set/SimpleChat.class
-replicated_stack_set/stack_set/ReplStack.class
-replicated_stack_set/stack_set/MainReplStackSet.class
 replicated_stack_set/stack_set/ReplSet.class
+replicated_stack_set/stack_set/ReplMessage.class
+replicated_stack_set/stack_set/ReplStack.class
