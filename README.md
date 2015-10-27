@@ -8,11 +8,13 @@ Choirunnisa Fatima (13512084)
 
 ##Deskripsi
 Implementasi replicated stack di atas JGroups yang memiliki antar muka minimal sebagai berikut:
-```public class ReplStack<T> {
+```
+public class ReplStack<T> {
 	public void push(T obj);
 	public T pop();
 	public T top();
-}```
+}
+```
 
 Implementasi replicated stack di atas JGroups yang memiliki antar muka minimal sebagai berikut:
 ```
@@ -45,6 +47,7 @@ Untuk menjalankan pengujian, jalankan perintah `mvn test`.
 Pengujian dilakukan dengan membuat dua objek kelas `ReplicatedStack`, yaitu `stack1` dan `stack2`.
  
 Berikut adalah skenario pengujian yang dilakukan:
+
 1. Method `push`
 	- Kasus normal
 		1. Lakukan `stack1.push(5)`
@@ -66,6 +69,7 @@ Untuk menjalankan pengujian, jalankan perintah `mvn test`.
 Pengujian dilakukan dengan membuat dua objek kelas `ReplicatedSet`, yaitu `set1` dan `set2`.
  
 Berikut adalah skenario pengujian yang dilakukan:
+
 1. Method `add`
 	- Kasus normal
 		1. Lakukan `set1.add(5)`
